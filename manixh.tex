@@ -1,0 +1,199 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Manish Kumar} \\[3mm]
+    \footnotesize \raisebox{-0.1\height}
+    \faPhone\ \underline{+91-8195822352} ~
+    \faEnvelope\ \underline{work.manishh02@gmail.com} ~
+    \faLinkedin\ \underline{\href{https://www.linkedin.com/in/imanish02}{linkedin.com/in/imanish02}} ~
+    \faGithub\ \underline{\href{https://github.com/ig-imanish}{github.com/ig-imanish}} ~
+    \faBriefcase\ \underline{\href{https://manixh.dev}{manixh.dev}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------Experience---------------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Jabsz Gaming Studios LLP}{May 2025 -- Sep 2025}{Web Developer}{Remote}
+        \resumeItemListStart
+            \resumeItem{Developed and deployed \textbf{3+ responsive web applications} using modern JavaScript frameworks, improving user engagement by \textbf{25\%} and reducing bounce rate by \textbf{15\%}}
+            \resumeItem{Engineered \textbf{RESTful APIs} and integrated third-party services, reducing data processing time by \textbf{40\%} and enhancing application performance}
+            \resumeItem{Collaborated with cross-functional team of \textbf{5 developers} using \textbf{Git workflows} and \textbf{Agile methodology}, achieving \textbf{95\% on-time delivery} rate across \textbf{10+ sprints}}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{OSSium} $|$ \emph{\href{https://ossium.live}{Website}}}{NextJS $|$ PostgreSQL $|$ Tailwind CSS}
+        \\[5mm]
+      \resumeItemListStart
+        \resumeItem{Built a \textbf{full-stack OSS discovery platform} serving \textbf{500+ registered users}, enabling developers to search, filter, and manage open-source projects with advanced search capabilities}
+        \resumeItem{Integrated \textbf{OAuth 2.0 SSO authentication} (Google, GitHub) using \textbf{NextAuth.js}, reducing user onboarding friction by \textbf{60\%} and increasing signup conversion rate}
+        \resumeItem{Implemented \textbf{Dodo Payments} gateway for premium subscriptions, processing secure transactions with \textbf{99.9\% uptime} and PCI-DSS compliance}
+      \resumeItemListEnd
+\vspace{-20pt}
+\resumeProjectHeading
+        {\textbf{MX Icons} $|$ \emph{\href{https://mx-icons.vercel.app}{Website} $|$ \href{https://github.com/ig-imanish/mx-icons}{Source Code}}}{React $|$ JavaScript $|$ npm}
+        \\[5mm]
+      \resumeItemListStart
+        \resumeItem{Created and published an \textbf{open-source icon library} on npm featuring \textbf{5000+ optimized SVG icons} with \textbf{tree-shaking support}, reducing bundle size by \textbf{70\%} compared to traditional libraries}
+        \resumeItem{Maintained comprehensive documentation with \textbf{live code examples}, enabling seamless developer integration with plug-and-play React components}
+      \resumeItemListEnd
+\vspace{-20pt}
+\resumeProjectHeading
+        {\textbf{SecureTOTP} $|$ \emph{\href{https://github.com/ig-imanish/Secure2FA}{Source Code}}}{Spring Boot $|$ Spring Security $|$ JWT $|$ MongoDB}
+        \\[5mm]
+      \resumeItemListStart
+        \resumeItem{Engineered a \textbf{secure TOTP-based 2FA web application} implementing industry-standard \textbf{RFC 6238 algorithm} for time-based one-time password generation}
+        \resumeItem{Designed \textbf{stateless JWT authentication} architecture with refresh token rotation, ensuring \textbf{zero session storage overhead} and horizontal scalability}
+        \resumeItem{Implemented \textbf{PIN-based MFA} with rate limiting (\textbf{5 attempts/min}) and brute-force protection, blocking \textbf{99\%} of unauthorized access attempts}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{College Hackathon}}{2025}
+        \\[5mm]
+      \resumeItemListStart
+        \resumeItem{Secured \textbf{1st position} in college-level hackathon, competing against \textbf{50+ teams} by developing an innovative solution under time constraints}
+      \resumeItemListEnd
+\vspace{-17pt}
+    \resumeProjectHeading
+        {\textbf{Open Source Contributor}}{2024 -- Present}
+        \\[5mm]
+      \resumeItemListStart
+        \resumeItem{Published and actively maintaining \textbf{npm packages} with community engagement and continuous feature updates}
+        \resumeItem{Contributed to multiple Open Source Projects, improving documentation and fixing bugs}
+      \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, JavaScript, TypeScript, SQL, C/C++, HTML5, CSS3} \\[1mm]
+     \textbf{Backend}{: Spring Boot, Spring Security, Node.js, Express.js, REST APIs, JWT, OAuth 2.0} \\[1mm]
+     \textbf{Frontend}{: React, Next.js, Tailwind CSS, Responsive Design} \\[1mm]
+     \textbf{Databases}{: PostgreSQL, MySQL, MongoDB, Redis} \\[1mm]
+     \textbf{Tools \& Platforms}{: Docker, Postman, Swagger, Vercel, VS Code, Prisma ORM} \\ [1mm]
+    }}
+ \end{itemize}
+ \vspace{-17pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+  {Rayat Bahra Institute of Engineering and Nano Technology}{Hoshiarpur, Punjab}
+  {B.Tech in Computer Science and Engineering}{Aug 2023 -- Aug 2027 (Expected)}
+\resumeSubHeadingListEnd
+\resumeItemListStart
+    \resumeItem{Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development, Operating Systems}
+\resumeItemListEnd
+\vspace{-12pt}
+
+\end{document}
