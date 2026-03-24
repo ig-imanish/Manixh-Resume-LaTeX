@@ -5,6 +5,15 @@ A clean, professional, and **ATS (Applicant Tracking System) friendly** LaTeX re
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
 ![Overleaf](https://img.shields.io/badge/Overleaf-47A141?style=for-the-badge&logo=overleaf&logoColor=white)
 
+## Preview
+<p align="center">
+  <img 
+    width="462" 
+    height="592" 
+    alt="Demo Preview" 
+    src="https://github.com/user-attachments/assets/c39dd469-4b4e-4ddc-b4af-4eeee4ad89b7" />
+</p>
+
 ## ✨ Features
 
 - **ATS Optimized** - Machine-readable format that passes through applicant tracking systems
